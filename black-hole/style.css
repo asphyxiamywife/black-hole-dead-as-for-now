@@ -3304,23 +3304,22 @@ background-attachment: fixed;
   background: transparent;
 }
 
-/* cringy tryin to continue theme to new versions w/o any knowing in css */
+/* cringy tryin to update theme to new versions w/o any knowing in css or theme developibg */
 
+/* member list fix by Sizzu#1270 */
 [role="list"] > div {
   background-color:transparent;
 } 
-
-/*forums list back*/
+/* forums list bg */
 #app-mount .container-3wLKDe {
   background-color: transparent;
 }
 
-/*forums threads*/
+/* forums threads bg */
 #app-mount .container-2qVG6q {
   background-color: transparent;
 }
-
-/*forums chat*/
+/* forums chat */
 #app-mount .container-3XgAHv {
   background-color: transparent;
 }
@@ -3330,18 +3329,45 @@ background-attachment: fixed;
 } 
 
 #app-mount .reactionBtn-fVdJIx {
-  background-color: black;
+  background-color: transparent;
 }
 
 #app-mount .contents-3ca1mk {
   background-color: transparent;
 }
 
-.container-JhuCwn .collapsed-23aTv6 {
-  background-color: black;
+/* profile in dm test 
+#app-mount .userProfileOuterUnthemed-2b2rsv {
+  color: white;
 }
 
-/*vencord update notif*/
+#app-mount .profileColors-3Y0XaR {
+  color: white;
+}*/
+
+/* forum search or create */
+.header-1Uy0p6 {
+  background-color: transparent;
+}
+
+/* send message box */
+.channelTextArea-1FufC0 {
+  color: transparent;
+  background-color: transparent;
+}
+
+/* obs-vencord-etc notif */
 #app-mount .notice-2HEN-u {
   background-color: transparent;
 }
+/* roles in user popup */
+.rolePill-2IJ1vo {
+  border: none;
+  color: transparent;
+}
+
+.headerWithMatchingPosts-1lTrVT {
+  color: transparent;
+  background-color: transparent;
+}
+
