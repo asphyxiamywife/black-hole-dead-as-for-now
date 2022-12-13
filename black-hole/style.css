@@ -3305,3 +3305,7 @@ background-attachment: fixed;
 }
 
 /* XIV. Addon Optimization */
+
+[role="list"] > div {
+  background-color:transparent;
+} 
