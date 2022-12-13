@@ -3304,8 +3304,44 @@ background-attachment: fixed;
   background: transparent;
 }
 
-/* XIV. Addon Optimization */
+/* cringy tryin to continue theme to new versions w/o any knowing in css */
 
 [role="list"] > div {
   background-color:transparent;
 } 
+
+/*forums list back*/
+#app-mount .container-3wLKDe {
+  background-color: transparent;
+}
+
+/*forums threads*/
+#app-mount .container-2qVG6q {
+  background-color: transparent;
+}
+
+/*forums chat*/
+#app-mount .container-3XgAHv {
+  background-color: transparent;
+}
+
+#app-mount .container-3YcgdM {
+  background-color: black;
+} 
+
+#app-mount .reactionBtn-fVdJIx {
+  background-color: black;
+}
+
+#app-mount .contents-3ca1mk {
+  background-color: transparent;
+}
+
+.container-JhuCwn .collapsed-23aTv6 {
+  background-color: black;
+}
+
+/*vencord update notif*/
+#app-mount .notice-2HEN-u {
+  background-color: transparent;
+}
