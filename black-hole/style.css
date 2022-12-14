@@ -3395,3 +3395,41 @@ background-attachment: fixed;
   color: var(--blurple)
 }
 
+/* create new post on empty forum i think */
+.container-2nXUah {
+  background-color: transparent;
+}
+
+/* empty forum get started  */
+#app-mount .wrapper-2O6Aho,
+#app-mount .checklist-3XWUt6,
+#app-mount .stepContainer-SaPPyG
+ {
+  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+  color: var(--blurple)
+}
+
+/* app directory black hole bg */
+.directoryModal-YJsOMv,
+.textContainer-8NQ6i8,
+.item-2Nx4LP,
+.textContainer-TzRfgH,
+.category-2OvQ93,
+.container-SidGiM
+{
+  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+  color: var(--blurple)
+}
+
+/* server boost screen */
+.perksModalContentWrapper-3RHugb,
+.ctaBar-Nhk8yY,
+.tierBody-3ju-rc,
+.perk-19D_HN
+{
+  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+  color: var(--blurple)
+}
