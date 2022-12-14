@@ -3306,7 +3306,7 @@ background-attachment: fixed;
 
 /* cringy tryin to update theme to new versions w/o any knowing in css or theme developibg */
 
-/* member list fix by Sizzu#1270 */
+/* member list by Sizzu#1270 */
 [role="list"] > div {
   background-color:transparent;
 } 
@@ -3323,9 +3323,11 @@ background-attachment: fixed;
 #app-mount .container-3XgAHv {
   background-color: transparent;
 }
-
+/* reactions and follow in forums chat */
 #app-mount .container-3YcgdM {
-  background-color: black;
+  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+  color: var(--blurple)
 } 
 
 #app-mount .reactionBtn-fVdJIx {
@@ -3336,22 +3338,30 @@ background-attachment: fixed;
   background-color: transparent;
 }
 
-/* profile in dm test 
-#app-mount .userProfileOuterUnthemed-2b2rsv {
-  color: white;
+/* dm profile */
+#app-mount .none-2-_0dP {
+  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+  color: var(--blurple)
 }
 
-#app-mount .profileColors-3Y0XaR {
-  color: white;
-}*/
+.userPanelOverlayBackground-3xwDMp {
+  background-color: transparent;
+  color: transparent;
+} 
+
+.overlayBackground-1KgwVi {
+  background-color: transparent;
+  color: transparent;
+}
 
 /* forum search or create */
-.header-1Uy0p6 {
+#app-mount .header-1Uy0p6 {
   background-color: transparent;
 }
 
 /* send message box */
-.channelTextArea-1FufC0 {
+#app-mount .channelTextArea-1FufC0 {
   color: transparent;
   background-color: transparent;
 }
@@ -3361,13 +3371,27 @@ background-attachment: fixed;
   background-color: transparent;
 }
 /* roles in user popup */
-.rolePill-2IJ1vo {
+#app-mount .rolePill-2IJ1vo {
   border: none;
   color: transparent;
 }
 
-.headerWithMatchingPosts-1lTrVT {
+#app-mount .headerWithMatchingPosts-1lTrVT {
   color: transparent;
   background-color: transparent;
+}
+
+/* active now friend card transparency */
+#app-mount .itemCard-3Etziu {
+  background-color: transparent;
+}
+
+/* user cards black hole */
+.userPopoutOverlayBackground-dKOOda,
+.userProfileInner-3F03PX, 
+.userProfileInnerThemedNonPremium-1gT-zY {
+  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+  color: var(--blurple)
 }
 
