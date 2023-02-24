@@ -3433,3 +3433,8 @@ background-attachment: fixed;
   background-attachment: fixed;
   color: var(--blurple)
 }
+
+.theme-light, .theme-dark, .theme-amoled {
+--background-primary: rgba(var(--transparencycolor), .2);
+--background-secondary: rgba(var(--transparencycolor), .3);
+}
