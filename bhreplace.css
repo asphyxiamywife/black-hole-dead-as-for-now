@@ -55,3 +55,6 @@
 	
 	--version1_0_5:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE														*/
 }
+#app-mount .notice-2HEN-u {
+  background-color: transparent;
+}
