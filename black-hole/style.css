@@ -3306,87 +3306,18 @@ background-attachment: fixed;
 
 /* cringy tryin to update theme to new versions w/o any knowing in css or theme developing */
 
-/* member list by Sizzu#1270 */
-[role="list"] > div {
-  background-color:transparent;
-} 
-/* forums list bg */
-#app-mount .container-3wLKDe {
+/* fix for guilds, channel list and chat */
+.theme-light, .theme-dark, .theme-amoled {
+--background-primary: rgba(var(--transparencycolor), .2);
+--background-secondary: rgba(var(--transparencycolor), .3);
+}
+
+/* streamer-vencord-update-etc notif */
+.notice-2HEN-u {
   background-color: transparent;
 }
 
-/* forums threads bg */
-#app-mount .container-2qVG6q {
-  background-color: transparent;
-}
-/* forums chat */
-#app-mount .container-3XgAHv {
-  background-color: transparent;
-}
-/* reactions and follow in forums chat */
-#app-mount .container-3YcgdM {
-  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
-  background-attachment: fixed;
-  color: var(--blurple)
-} 
-
-#app-mount .reactionBtn-fVdJIx {
-  background-color: transparent;
-}
-
-#app-mount .contents-3ca1mk {
-  background-color: transparent;
-}
-
-/* dm profile */
-#app-mount .none-2-_0dP {
-  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
-  background-attachment: fixed;
-  color: var(--blurple)
-}
-
-.userPanelOverlayBackground-3xwDMp {
-  background-color: transparent;
-  color: transparent;
-} 
-
-.overlayBackground-1KgwVi {
-  background-color: transparent;
-  color: transparent;
-}
-
-/* forum search or create */
-#app-mount .header-1Uy0p6 {
-  background-color: transparent;
-}
-
-/* send message box */
-#app-mount .channelTextArea-1FufC0 {
-  color: transparent;
-  background-color: transparent;
-}
-
-/* obs-vencord-etc notif */
-#app-mount .notice-2HEN-u {
-  background-color: transparent;
-}
-/* roles in user popup */
-#app-mount .rolePill-2IJ1vo {
-  border: none;
-  color: transparent;
-}
-
-#app-mount .headerWithMatchingPosts-1lTrVT {
-  color: transparent;
-  background-color: transparent;
-}
-
-/* active now friend card transparency */
-#app-mount .itemCard-3Etziu {
-  background-color: transparent;
-}
-
-/* user cards black hole */
+/* user popup */
 .userPopoutOverlayBackground-dKOOda,
 .userProfileInner-3F03PX, 
 .userProfileInnerThemedNonPremium-1gT-zY {
@@ -3395,19 +3326,30 @@ background-attachment: fixed;
   color: var(--blurple)
 }
 
-/* create new post on empty forum i think */
-.container-2nXUah {
+/* roles in user popup*/
+.rolePill-2IJ1vo {
+  border: none;
+  color: transparent;
+}
+
+/* forums list bg */
+.container-3wLKDe {
   background-color: transparent;
 }
 
-/* empty forum get started  */
-#app-mount .wrapper-2O6Aho,
-#app-mount .checklist-3XWUt6,
-#app-mount .stepContainer-SaPPyG
- {
-  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
-  background-attachment: fixed;
-  color: var(--blurple)
+/* forums threads bg */
+#app-mount .container-2qVG6q {
+  background-color: transparent;
+}
+
+/* dm profile */
+.userPanelOverlayBackground-3xwDMp {
+  background-color: transparent;
+  color: transparent;
+} 
+.overlayBackground-1KgwVi {
+  background-color: transparent;
+  color: transparent;
 }
 
 /* app directory black hole bg */
@@ -3432,9 +3374,4 @@ background-attachment: fixed;
   background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
   background-attachment: fixed;
   color: var(--blurple)
-}
-
-.theme-light, .theme-dark, .theme-amoled {
---background-primary: rgba(var(--transparencycolor), .2);
---background-secondary: rgba(var(--transparencycolor), .3);
 }
