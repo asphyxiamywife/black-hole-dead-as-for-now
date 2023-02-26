@@ -3305,3 +3305,73 @@ background-attachment: fixed;
 }
 
 /* XIV. Addon Optimization */
+
+/* fix for guilds, channel list and chat */
+.theme-light, .theme-dark, .theme-amoled {
+--background-primary: rgba(var(--transparencycolor), .2);
+--background-secondary: rgba(var(--transparencycolor), .3);
+}
+
+/* streamer-vencord-update-etc notif */
+.notice-2HEN-u {
+  background-color: transparent;
+}
+
+/* user popup */
+.userPopoutOverlayBackground-dKOOda,
+.userProfileInner-3F03PX, 
+.userProfileInnerThemedNonPremium-1gT-zY {
+  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+  color: var(--blurple)
+}
+
+/* roles in user popup*/
+.rolePill-2IJ1vo {
+  border: none;
+  color: transparent;
+}
+
+/* forums list bg */
+.container-3wLKDe {
+  background-color: transparent;
+}
+
+/* forums threads bg */
+#app-mount .container-2qVG6q {
+  background-color: transparent;
+}
+
+/* dm profile */
+.userPanelOverlayBackground-3xwDMp {
+  background-color: transparent;
+  color: transparent;
+} 
+.overlayBackground-1KgwVi {
+  background-color: transparent;
+  color: transparent;
+}
+
+/* app directory black hole bg */
+.directoryModal-YJsOMv,
+.textContainer-8NQ6i8,
+.item-2Nx4LP,
+.textContainer-TzRfgH,
+.category-2OvQ93,
+.container-SidGiM
+{
+  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+  color: var(--blurple)
+}
+
+/* server boost screen */
+.perksModalContentWrapper-3RHugb,
+.ctaBar-Nhk8yY,
+.tierBody-3ju-rc,
+.perk-19D_HN
+{
+  background: var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+  color: var(--blurple)
+}
