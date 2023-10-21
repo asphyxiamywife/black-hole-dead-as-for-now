@@ -1,5 +1,5 @@
 
-# Black Hole Discord Theme (broken since 10/18/2023 update)
+# Black Hole Discord Theme (broken since 10/18/2023 update, maybe still usable w/<a href='https://github.com/Vencord/Vesktop'>Vesktop</a> )
 
 this themes originaly created and owned by Elle (<a href='https://github.com/themonstrousdev'>Monster Dev</a>, Monstrum#3557)
 
