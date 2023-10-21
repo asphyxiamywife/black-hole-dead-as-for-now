@@ -3375,3 +3375,29 @@ background-attachment: fixed;
   background-attachment: fixed;
   color: var(--blurple)
 }
+
+
+/* player and below by @hypeddomi */
+
+[class^="sidebar-"] [class^="panels-"] {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: 1px solid var(--background-modifier-accent);
+  border-radius: 20px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+[class^="sidebar-"] [class^="panels-"] [class^="container-"],
+[class^="sidebar-"] [class^="panels-"] [class^="panel-"] {
+  background-color: transparent !important;
+}
+
+[class^="sidebar-"] [class^="panels-"] [class^="container-"] [class^="avatarWrapper-"] + [class^="flex-"] {
+  margin-left: -10px;
+}
+
+#vc-spotify-player {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
