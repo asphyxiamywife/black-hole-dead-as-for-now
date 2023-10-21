@@ -1,5 +1,5 @@
 
-# Black Hole Discord Theme
+# Black Hole Discord Theme (broken since 10/18/2023 update)
 
 this themes originaly created and owned by Elle (<a href='https://github.com/themonstrousdev'>Monster Dev</a>, Monstrum#3557)
 
